@@ -21,11 +21,7 @@ public class AlumnoController {
 	@GetMapping(value = "/verAlumno" )
 	public String verAlumno() {return "registraAlumno";}
 
-	@GetMapping(value = "/verConcurso" )
-	public String verConcurso() {return "registraConcurso";}
-
-	@GetMapping(value = "/verJugador" )
-	public String verJugador() {return "registraJugador";}
+	
 
 
 	@PostMapping("/registraAlumno")
